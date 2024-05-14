@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Pagina encargada de contener y mostrar todas las opciones de servicios que dispone la pagina web. Y darse a conocer como compañía. Con la finalidad de vender un producto final al usuario">
+    <meta name="author" content="David Melendez Nuñez">
+    <meta name="copyright" content="@davidmelendeznunez">
+    <meta name="robots" content="index, follow">
+
+
+    <title>Document</title>
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+
+    <!-- Navegacion de la Pagina Principal -->
+    <nav class="navbar navbar-expand-lg">
+
+        <div class="container-fluid fondoNav fixed-top">
+			<!--LOGOTIPO-->
+		<div class="logoImagenDic"> 
+			<a class="navbar-brand " href="index.html"><img class="logotipoImagen" src="imagenes/LogoTipoSinFondo.png"></a> 
+		</div>         
+		
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           <!----------------------------------------->
+
+
+          <div class="collapse navbar-collapse " id="navbarText">
+            
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="productos.html">WORDPRESS</a></li>
+                      <li><a class="dropdown-item" href="#">BOOTSTRAP</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     PRODUCTOS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="productos.html">WORDPRESS</a></li>
+                      <li><a class="dropdown-item" href="productos.html">SHOPIFY</a></li>
+                      <li><a class="dropdown-item" href="productos.html">BOOTSTRAP</a></li>
+                      <li><a class="dropdown-item" href="productos.html">HTML</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     INICIO DE SESIÓN
+                    </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="nav-link active " aria-current="page" href="inicioSesionUsuario.html">INICIO SESION</a></li>
+                    <li><a class="nav-link active " aria-current="page" href="registroUsuario.html">REGISTRO</a></li>
+                  </ul>
+
+
+                  <li><a href="cesta.html"><i class="bi bi-cart2 carritoCompra"></i></a></li>
+                
+
+                  <button class="botonColoresIndex" id="botonColores">Cambiar Color</button>
+            </ul>
+
+           
+          </div>
+        </div>
+      </nav>
+
+
+      <!---------------------------------------------------------------------------------------------------------------------------------->
+
+      <!-- ELEMENTO DE CAROUSEL -->
+
+
+      
+
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="imagenes/Carousel01.jpg" class="d-block imagenCarousel img-fluid" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="imagenes/Carousel02.jpg" class="d-block imagenCarousel" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="imagenes/Carousel03.avif" class="d-block imagenCarousel" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><br><br>
+
+
+
+
+      <!---------------------------------------------------------------------------------------------------------------------------------->
+
+     <!-- SECCION DE PRECIOS PLATILLAS -->
+
+     <section id="preciosPlantillas">
+     <h2 class="textoComplementos"><b>Complementos premium incluidos</b></h2>
+     <p class=" textoComplInfo"><b>TheDMN con 3 complementos premium populares incluidos. No es necesario comprar una licencia <br>adicional para utilizar estas herramientas:</b></p>
+     <br><br><br>
+
+
+     <div class="container text-center">
+      <div class="row ">
+        <div class=" col-md-6 col-sm col-lg-4">
+         
+         <div class="p-3 colorFondoTarjeta1 ">  <br><br><br>
+          <p class="escalaLogo"><i class="bi bi-browser-safari"></i></p>  <!-- ICONO SAFARI -->
+          <p><b>Creador de páginas de WPBakery</b></p>
+          <p>uno de los mejores creadores de páginas, enriquecido con funciones de TheDMN</p>
+          <p><b>Ahorre $64</b></p>
+        </div>
+
+
+        </div>
+
+        
+        <div class="col-md-6 col-sm-12 col-lg-4">
+          <div class="p-3 colorFondoTarjeta2"> <br><br><br>
+            <p class="escalaLogo"><i class="bi bi-browser-chrome"></i></p>  <!-- ICONO CHROME -->
+            <p><b>Revolución deslizante</b></p>
+            <p>uno de los mejores complementos deslizantes</p><br>
+            <p><b>Ahorre $109</b></p>
+         
+          </div>
+         </div>
+        <div class="col-md-6 col-sm-12 col-lg-4">
+          <div class="p-3 colorFondoTarjeta3"> <br><br><br>
+            <p class="escalaLogo"><i class="bi bi-browser-firefox"></i></p>  <!-- ICONO FIREFOX -->
+            <p><b>Control deslizante de capa</b></p>
+            <p>Otros complementos de control deslizante populares</p><br>
+            <p><b>Ahorre $26</b></p>
+          </div>
+        </div>
+
+        <div class="col-md-6  col-sm-12 col-lg">
+          <div></div>
+          <div class="p-3 ">
+            <p class="fs-3"><br><br><b>Ahorrar dinero</b></p>
+            <p class="precioComplementos"><b>199€</b></p>
+            <p class="textoComplementosPrecio"><b>Con complementos premium incluidos</b></p>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+      <h2 class="textoComplementos"><b>Compatibilidad de complementos</b></h2>
+      <p class=" textoComplInfo"><b>TheDMN es totalmente compatible con complementos populares de WordPress como Yoast, ACF, Dokan, Jetpack, The Events Calendar, Loco Translate, Polylang, Wordfence y mucho más</b></p>
+      <br><br><br>
+    </div>
+    <br> <br> <br> 
+  </section>
+
+
+
+
+
+
+
+
+
+     <!-- DIVISION DE LA SECCION DEL ELEMENTO DE GRADIENT CON LAS TARJETAS DE LOS ELEMENTOS -->
+
+     <div class="fondoDivisionElementoPagInici">
+
+        <h2 class="textoDivisionElementoPagInici"><b>PRODUCTOS</b></h2>
+
+     </div>
+
+
+
+    <!-- TARGETAS CONTENEDORAS DE LOS DISTINTOS PRODUCTOS -->
+
+    <section id="productos">
+    <div class="fondoTajetasInicialPagina">
+
+      <div class="container text-center">
+   
+        <div class="row">
+            <div class="col-md-6   col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/01.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductos">ELEMENTO DE PRUEBA PARA EL NOMBRE DEL MISMO</p>
+
+            </div>
+    
+    
+            <div class="col-md-6   col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/02.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductos">ELEMENTO DE PRUEBA PARA EL NOMBRE DEL MISMO</p>
+            </div>
+    
+    
+            <div class="col-md-6   col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/03.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductos">ELEMENTO DE PRUEBA PARA EL NOMBRE DEL MISMO</p>
+            </div>
+    
+    
+            <div class="col-md-6   col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/04.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductos">ELEMENTO DE PRUEBA PARA EL NOMBRE DEL MISMO</p>
+            </div>
+    
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/05.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductos">ELEMENTO DE PRUEBA PARA EL NOMBRE DEL MISMO</p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/06.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductos">ELEMENTO DE PRUEBA PARA EL NOMBRE DEL MISMO</p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/07.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductos">ELEMENTO DE PRUEBA PARA EL NOMBRE DEL MISMO</p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/08.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductos">ELEMENTO DE PRUEBA PARA EL NOMBRE DEL MISMO</p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/09.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductos">ELEMENTO DE PRUEBA PARA EL NOMBRE DEL MISMO</p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/10.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductos">ELEMENTO DE PRUEBA PARA EL NOMBRE DEL MISMO</p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/11.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductos">ELEMENTO DE PRUEBA PARA EL NOMBRE DEL MISMO</p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/12.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductos">ELEMENTO DE PRUEBA PARA EL NOMBRE DEL MISMO</p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/13.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductos">ELEMENTO DE PRUEBA PARA EL NOMBRE DEL MISMO</p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/14.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductos">ELEMENTO DE PRUEBA PARA EL NOMBRE DEL MISMO</p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/15.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductos">ELEMENTO DE PRUEBA PARA EL NOMBRE DEL MISMO</p>
+            </div>
+
+        </div>    <br><br>   
+    
+
+     
+    <!-- SECCION DE BOTON "PRODUCTOS" DE LA SECCION DE PRODUCTOS DE LA PAGINA PRINCIPAL -->
+
+    <a href="productos.html"><button class="botonProductos">PRODUCTOS</button></a> <br><br> <br><br>
+    <br><br><br><br><br>
+  
+
+    <!-- TARJETAS DE INFORMACION DE LOS PRODUCTOS -->
+
+  <section id="informacionProductos">
+    <div class=" text-center">
+      <div class="row ">
+
+
+        <div class="col-md-6  col-sm-12 col-lg-4">
+         <div class="p-3 bodyTarjetasInformacion">
+            <div class="textoTarjetaInformacion">
+              <div><p class="logoWordpress"><i class="bi bi-wordpress"></i></p> <!-- ICONO DE WORDPRESS --></div>    
+              <span class="fs-3"><b>WORDPRESS</b></span>
+              <p class=" fs-7">
+              Habilitar muestras en las páginas de productos individuales y en los bucles de productos es una estrategia que mejora la experiencia visual del usuario en tu tienda WooCommerce</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6  col-sm-12 col-lg-4">
+          <div class="p-3 bodyTarjetasInformacion">
+             <div class="textoTarjetaInformacion">
+               <div><p class="logoWordpress"><i class="bi bi-bootstrap"></i></p> <!-- ICONO DE BOOSTRAP --></div>    
+               <span class="fs-3"><b>BOOTSTRAP</b></span>
+               <p class=" fs-7">
+                Búsqueda en pantalla completa, menú desplegable con resultados de búsqueda en vivo, búsqueda por SKU. El tema TheGem WordPress WooCommerce viene con un mecanismo de búsqueda integrado único</p>
+             </div>
+           </div>
+         </div>
+
+
+         <div class="col-md-12  col-sm-12 col-lg-4">
+          <div class="p-3 bodyTarjetasInformacion">
+             <div class="textoTarjetaInformacion">
+               <div><p class="logoWordpress"><i class="bi bi-laptop"></i></p> <!-- ICONO DE PORTATIL --></div>    
+               <span class="fs-3"><b>PROGRAMACION</b></span>
+               <p class=" fs-6">
+                Eleva la experiencia de compra al proporcionar a tus clientes filtros de productos cómodos y rápidos para encontrar los productos que buscan</p>
+             </div>
+           </div>
+         </div>
+    </div>
+
+   </section>
+
+
+    <!-- SECCION PIE DE PAGINA - PAGINA PRINCIPAL-->
+    <footer>
+    <div class="pieDePagina">
+      <div>
+        <a>Soporte |</a>
+        <a>Contacto |</a>
+        <a>Devoluciones |</a>
+        <a>Politica de Privacidad |</a>
+        <a>Sobre Nosotros</a>
+      </div>
+    </div>
+  </footer>
+    <br><br>
+
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

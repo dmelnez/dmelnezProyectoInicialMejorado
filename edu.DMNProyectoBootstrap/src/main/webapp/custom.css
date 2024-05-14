@@ -1,0 +1,706 @@
+@charset "ISO-8859-1";
+
+/**********************************/
+/* SECCION DE LA PAGINA PRINCIPAL */
+/**********************************/
+
+/* NAVEGADOR PRINCIPAL - PAGINA PRINCIPAL*/
+
+.fondoNav{
+  background-color: white;
+}
+
+.logotipoImagen{
+  height: 60px;
+}
+
+.logoImagenDic{
+	margin-right: 650px;
+}
+
+.carritoCompra{
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+
+/*ELEMENTO DE CAROUSEL - PAGINA PRINCIPAL*/
+
+
+.imagenCarousel{
+  width: 100%;
+  height: 800px;
+}
+
+
+
+/*ELEMENTO DE GRADIENTE - PAGINA PRINCIPAL*/
+.diagonal-gradient {
+    background: linear-gradient(to bottom right, #132744, #522C5A);
+    border-radius: 2rem;
+    height: 45rem;
+    padding: 4rem;
+  }
+
+  .gradientInicialPrincipal{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+  }
+
+
+
+  .iconosAlineados{
+    display: flex;
+  }
+
+  .textoGradient{
+    color: white;
+  }
+
+
+
+  .botonesGradient {
+    padding: 10px 20px;
+    background: linear-gradient(300deg,#e312af,#9412e3);
+    background-size: 120% 120%;
+    animation: gradient-animation 12s ease infinite;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  
+
+  
+  
+  
+  
+  /* ELEMENTO SACADO DE https://animated-gradient-background-generator.netlify.app/ */
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+/* SECCION DE PLUGINS - PAGINA PRINCIPAL*/
+ 
+
+
+.textoComplementos{
+  text-align: center;
+  font-size: 40px;
+}
+
+.textoComplInfo{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.textoComplementosPrecio{
+  font-size: 22px;
+}
+
+
+
+/* COLORES DE LAS TARJETAS CON GRADIENTE */
+
+
+.colorFondoTarjeta1{
+  box-shadow: 0px 0px 20px #65ebbc;
+  border-radius: 1rem;
+  height: 30rem;
+}
+
+
+.colorFondoTarjeta2{
+  box-shadow: 0px 0px 20px #ed889d;
+  border-radius: 1rem;
+  height: 30rem;
+}
+
+.colorFondoTarjeta3{
+  box-shadow: 0px 0px 20px #d0fe30;
+  border-radius: 1rem;
+  height: 30rem;
+}
+
+
+
+.precioComplementos{
+  
+  text-align: center;
+  font-size: 95px;
+}
+
+.escalaLogo{
+  font-size: 70px;
+}
+
+
+
+
+
+/* DIVISION DE LA SECCION DE GRADIENT CON LAS TARJETAS DE LOS PRODUCTOS - PAGINA PRINCIPAL */
+
+.fondoDivisionElementoPagInici{
+  width: 100%;
+  height: 120px;
+  background-color: #21232B;
+  padding-top: 27px;
+ 
+}
+
+
+.textoDivisionElementoPagInici{
+
+  padding: 1rem;
+  text-align: center;
+  color: #D1FF30;
+  font-family: Rozha One;
+
+}
+
+
+/* FONDO DE LA SECCION DE LAS TARJETAS - PAGINA PRINCIPAL*/
+.fondoTajetasInicialPagina{
+  background-color: #21232B;
+  width: 100%;
+  height: 155rem;
+
+}
+
+
+
+.botonProductos {
+  padding: 10px 20px;
+  background: linear-gradient(300deg,#e312af,#12e3d7,#cae312);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* ELEMENTO SACADO DE https://animated-gradient-background-generator.netlify.app/ */
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+/* SECCION DE LAS TARJETAS DE INFORMACION DE LA PAGINA WEB - PAGINA PRINCIPAL */
+
+.bodyTarjetasInformacion{
+  border-radius: 2rem;
+  height: 30rem;
+
+ 
+}
+
+.logoWordpress{
+  font-size: 120px;
+}
+
+.textoTarjetaInformacion{
+ 
+ margin-top: 40px;
+
+ 
+}
+
+/* SECCION DE PIE DE PAGINA - PAGINA PRINCIPAL*/
+.pieDePagina{
+  margin-top: 45px;
+}
+
+
+
+/**********************************************************/
+/*PAGINA DE INICIO DE SESION Y REGISTRO DEL USUARIO - MENU*/
+/**********************************************************/
+
+
+.bodyInicioSesion{
+  background: linear-gradient(327deg,#363553,#390377,#e8458b);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .login {
+    width: 520px;
+    height: 550px;
+    background: url(https://media4.giphy.com/media/BHNfhgU63qrks/giphy.gif) center center no-repeat;
+    background-size: cover;
+    margin: 10rem auto;
+    border-radius: 20px;
+  }
+
+
+
+  .login .formRegistro {
+    width: 100%;
+    height: 100%;
+    padding: 15px 25px;
+  }
+  .login .formRegistro h2 {
+    color: #FFF;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+  .login .formRegistro input {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background: rgba(255,255,255,.5);
+    border: 1px solid rgba(255,255,255,.1);
+    padding: 0 15px;
+    color: #FFF;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .login .formRegistro input:focus {
+    border: 1px solid rgba(255,255,255,.8);
+    outline: none;
+  }
+  ::-webkit-input-placeholder {
+      color: #DDD;
+  }
+  .login .formRegistro input.submit {
+    background: rgba(255,255,255,.9);
+    color: #444;
+    font-size: 15px;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+/**********************************************************/
+
+
+
+
+/**********************************************************/
+/******************PAGINA DE PRODUCTOS*********************/
+/**********************************************************/
+
+/* SECCION DE DIVISION LOS ELEMENTOS */
+.textoDivisionElementos{
+  text-align: center;
+  padding-top: 18px;
+
+
+}
+
+.divDivisionElementos{
+  height: 80px;
+
+}
+
+
+/* TARJETA CONTENEDORA DE LOS ELEMENTOS */
+.tarjetasProductos{
+
+  border-radius: 8px;
+  height: 200px;  
+}
+
+.colorFondoElementosProductos{
+  background-color: #1C1E24;
+}
+
+
+
+
+.imagenTarjeta{
+  height: 25rem;
+  border-radius: 8px;
+  padding: 0px;
+  margin: 0px;
+  width: 100;
+
+}
+
+.parrafoProductos{
+  text-align: center;
+  margin-top: 1rem;
+  color: white;
+}
+
+.fondoNavProductos{
+  background-color: transparent
+}
+
+main{
+  width: 80%;
+  height: auto;
+  }
+.lateral{
+  box-sizing: border-box;
+  width: max(8%, 200px);
+  display: inline-block;
+  position: fixed;
+  
+  }
+.principal{
+  margin-left: max(10%, 200px);
+  padding: 0 10px;
+  height: 200rem;
+  width: 100%;
+  text-align: justify;
+  background:white;
+  
+  }
+
+
+.lateral ul{
+  list-style:none;
+  padding-left:0;
+  margin-top:0;
+  }
+.lateral ul li{
+  display:block;
+  position: relative;
+  padding: 8px 10px;
+  margin-left:0;
+  border-bottom:1px solid #060696
+  }
+.lateral ul li a{
+  color: black;
+  text-decoration:none; 
+  }
+.lateral ul li a:after{ 
+  content: ' '; /*ELEMENTO SACADO DE https://creatuweb.espaciolatino.com*/
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  }
+.lateral ul li:hover, .lateral ul li:hover a{
+  background: blue;
+  color: white;
+  }
+
+
+.tablaPreciosProductos{
+	margin-left:130px;
+}
+
+
+/* PIE DE LA PAGINA DE LA SECCION DE LOS PRODUCTOS */
+.piePaginaProductos{
+  text-align: center
+}
+
+
+
+
+
+
+
+/*PAGINA DE FINALIZACION DE COMPRA - CARRO DE LA COMPRA*/
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap");
+body {
+  background: #eceff1;
+}
+
+.card {
+  background-color: #eceff1;
+  border-radius: 30px;
+  text-align: center;
+  padding: 15px;
+  max-width: 375px;
+  margin: 100px auto;
+  box-shadow: 20px 20px 20px #e6eaed, -20px -20px 20px #f2f4f5;
+}
+.card .ilustration {
+  margin: 30px;
+}
+.card .ilustration lottie-player {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 20px 20px 20px #e6eaed, -20px -20px 20px #f2f4f5;
+}
+.card h3 {
+  font-family: "Fredoka", sans-serif;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  color: #1d2428;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.card p {
+  font-family: "Fredoka", sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #5e7280;
+  margin: 30px auto;
+  max-width: 80%;
+}
+.card button {
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 15px 80px;
+  border-radius: 25px;
+  color: white;
+  border: 0;
+  margin: 30px 0;
+  outline: none;
+  background-color: #81c784;
+  box-shadow: 10px 10px 10px rgba(122, 196, 125, 0.2), -10px -10px 10px rgba(136, 202, 139, 0.2);
+  transition: ease all 0.3s;
+  cursor: pointer;
+}
+.card button:hover {
+  box-shadow: 20px 20px 20px rgba(122, 196, 125, 0.1), -20px -20px 20px rgba(136, 202, 139, 0.1);
+  transform: translateY(-3px);
+}
+.card button:active {
+  transform: scale(0.9);
+  box-shadow: inset -1px -1px 3px rgba(122, 196, 125, 0.3), -20px -20px 20px rgba(136, 202, 139, 0);
+}
+
+
+
+
+
+
+/****************************************************/
+/***** PAGINA DE CARRITO DE LA COMPRA - CESTA ******/
+/**************************************************/
+
+.tituloPaginaCesta{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.seccionTitutoCesta{
+  height: 80px;
+  border-top: 1px solid black;
+
+}
+
+
+.payment-info {
+  background: blue;
+  padding: 10px;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.product-details {
+  padding: 10px;
+}
+
+body {
+  background: #eee;
+}
+
+.cart {
+  background: #fff;
+}
+
+.p-about {
+  font-size: 12px;
+}
+
+.table-shadow {
+  -webkit-box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.42);
+  box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.42);
+}
+
+.type {
+  font-weight: 400;
+  font-size: 10px;
+}
+
+label.radio {
+  cursor: pointer;
+}
+
+label.radio input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+label.radio span {
+  padding: 1px 12px;
+  border: 2px solid #ada9a9;
+  display: inline-block;
+  color: #8f37aa;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 300;
+}
+
+label.radio input:checked + span {
+  border-color: #fff;
+  background-color: blue;
+  color: #fff;
+}
+
+.credit-inputs {
+  background: rgb(102,102,221);
+  color: #fff !important;
+  border-color: rgb(102,102,221);
+}
+
+.credit-inputs::placeholder {
+  color: #fff;
+  font-size: 13px;
+}
+
+.credit-card-label {
+  font-size: 9px;
+  font-weight: 300;
+}
+
+.form-control.credit-inputs:focus {
+  background: rgb(102,102,221);
+  border: rgb(102,102,221);
+}
+
+.line {
+  border-bottom: 1px solid rgb(102,102,221);
+}
+
+.information span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.information {
+  margin-bottom: 5px;
+}
+
+.items {
+  -webkit-box-shadow: 5px 5px 4px -1px rgba(0,0,0,0.25);
+  box-shadow: 5px 5px 4px -1px rgba(0, 0, 0, 0.08);
+}
+
+.spec {
+  font-size: 11px;
+}
+
+
+.textoPrincipalInteresProductos{
+  text-align: center;
+  color: white;
+
+  
+}
+
+
+.seccionProductosRecomendacion{
+  border-top: 1px solid black;
+
+  background-color:#21222A;
+  height: 72rem;
+
+}
+
+.nombreProductosCesta{
+  font-size: 15px;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+
+.piePaginaCesta{
+ 
+  height: 70px;
+}
+
+/*************************************************************************************************************/
+
+
+/* Estilos para el modo claro */
+:root {
+  --background-color: #fff;
+  --text-color: #000;
+}
+ 
+/* Estilos para el modo oscuro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #000;
+    --text-color: #fff;
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+
+
+body.modo-oscuro {
+  background-color: black ;
+  color: white ;
+}
+
+
+
+
+
+.botonColoresIndex{
+
+  border-radius: 10px;
+
+  margin-left: 30px;
+
+}

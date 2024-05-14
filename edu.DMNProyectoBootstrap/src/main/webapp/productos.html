@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="custom.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+
+  <!-- MENU DE NAVEGACION PRINCIPAL -->
+
+  <nav class="navbar navbar-expand-lg ">
+
+    <div class="container-fluid fondoNav fixed-top">
+        <!--LOGOTIPO-->
+        <div class="logoImagenDic"> 
+			<a class="navbar-brand " href="index.html"><img class="logotipoImagen" src="imagenes/LogoTipoSinFondo.png"></a> 
+		</div> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+   
+
+
+      <div class="collapse navbar-collapse " id="navbarText">
+        
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item dropdown">
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="productos.html">WORDPRESS</a></li>
+                  <li><a class="dropdown-item" href="#">BOOTSTRAP</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 PRODUCTOS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="productos.html">WORDPRESS</a></li>
+                  <li><a class="dropdown-item" href="productos.html">SHOPIFY</a></li>
+                  <li><a class="dropdown-item" href="productos.html">BOOTSTRAP</a></li>
+                  <li><a class="dropdown-item" href="productos.html">HTML</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 INICIO DE SESIÓN
+                </a>
+              <ul class="dropdown-menu">
+                <li><a class="nav-link active " aria-current="page" href="inicioSesionUsuario.html">INICIO SESION</a></li>
+                <li><a class="nav-link active " aria-current="page" href="registroUsuario.html">REGISTRO</a></li>
+              </ul>
+
+              <li><a href="cesta.html"><i class="bi bi-cart2 carritoCompra"></i></a></li>
+              
+              <button onclick="cambiarFondo()">Cambiar Fondo</button>
+
+
+          
+        </ul>
+
+       
+      </div>
+    </div>
+  </nav><br>
+
+
+<!------------------------------------------------------------->
+
+<!-- SECCION DE MENU LATERAL //-->
+  <main>
+    <div class="lateral" id="lateralMenu">
+    <br>
+    <ul class="menuVert">
+      <li><a href="#wordpress">WORDPRESS</a></li>
+      <li><a href="#shopify">SHOPIFY</a></li>
+      <li><a href="#bootstrap">BOOTSTRAP</a></li>
+      <li><a href="#html">HTML</a></li>
+    </ul>
+    </div>
+
+    <section id="productos">
+
+    <div class="principal" id="miDiv">
+      <div class="container text-center "><br>
+   
+        <div class="row">
+    
+            <!-- SECCION DE DIVISION DE LOS PRODUCTOS "WORDPRESS" -->
+            <div class="divDivisionElementos" id="wordpress">
+                <h2 class="textoDivisionElementos"><b>WORDPRESS</b></h2>
+            </div>
+            <!----------------------------------------------------------------------------------------------------------------->
+            <div class="col-md-6  col-sm-12 col-lg-4" >
+                <a href="cesta.html">
+                    <img src="imagenes/01.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>La tienda de Kiva</b></p>
+            </div>
+    
+    
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/02.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>Tienda de regalos de los amigos peludos</b></p>
+            </div>
+    
+    
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/03.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>Superette Paseo</b></p>
+            </div>
+    
+    
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/04.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>La tienda en línea</b></p>
+            </div>
+    
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/05.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>La venta conecta</b></p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/06.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>Tienda auténtica</b></p>
+            </div>
+    
+            <!-- SECCION DE DIVISION DE LOS PRODUCTOS "SHOPIFY" -->
+                <div class="divDivisionElementos" id="shopify">
+                    <h2 class="textoDivisionElementos"><b>SHOPIFY</b></h2>
+                </div>
+            <!----------------------------------------------------------------------------------------------------------------->
+    
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/07.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>Bazar digital</b></p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/08.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>Mercado virtual</b></p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/09.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>Rincón de ofertas</b></p>
+            </div>
+    
+            <!-- SECCION DE DIVISION DE LOS PRODUCTOS "BOOTSTRAP" -->
+            <div class="divDivisionElementos" id="bootstrap">
+                <h2 class="textoDivisionElementos"><b>BOOTSTRAP</b></h2>
+            </div>
+            <!----------------------------------------------------------------------------------------------------------------->
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/10.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>El escaparate online</b></p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/11.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>La boutique digital</b></p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/12.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>Tienda del futuro</b></p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/13.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>El almacén virtual</b></p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/14.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>El bazar en línea</b></p>
+            </div>
+    
+            
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/15.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>La tienda mágica</b></p>
+            </div>
+            <!-- SECCION DE DIVISION DE LOS PRODUCTOS "PLANTILLAS HTML" -->
+            <div class="divDivisionElementos" id="html">
+                <h2 class="textoDivisionElementos"><b>HTML</b></h2>
+            </div>
+            <!----------------------------------------------------------------------------------------------------------------->
+    
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/16.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>El rincón de los descuentos</b></p>
+            </div>
+    
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/17.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>Tienda de curiosidades</b></p>
+            </div>
+    
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/18.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="col-md-6  col-sm-12 col-lg-4"><b>El mercado de las curiosidades</b></p>
+            </div>
+    
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/19.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>La tienda de los sueños</b></p>
+            </div>
+    
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/20.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>Tienda de tesoros</b></p>
+            </div>
+    
+            <div class="col-md-6  col-sm-12 col-lg-4">
+                <a href="cesta.html">
+                    <img src="imagenes/21.jpg" class="imagenTarjeta img-fluid" alt="">
+                    
+                </a>
+                <p class="parrafoProductosSeccion"><b>La boutique de la moda</b></p>
+            </div>
+        </div>
+    
+      </div>
+
+    </div>
+</div>
+
+</div><br><br><br><br><br><br><br><br><br><br>
+</section>
+
+
+<!-- SECCION DE TABLA DE DIVISION DE PRECIOS -->
+
+<br><br>
+<div class="table-responsive">
+    <table class="table tablaPreciosProductos table">
+    <thead>
+        <tr>
+        <th scope="col">NAVEGADORES</th>
+        <th scope="col">TIPO DE PLANTILLA</th>
+        <th scope="col">PRECIOS</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row">SAFARI</th>
+        <td>WORDPRESS</td>
+        <td>120€ - 130€ </td>
+
+        </tr>
+        <tr>
+        <th scope="row">FIREFOX</th>
+        <td>HTML, BOOTSTRAP</td>
+        <td>150€ - 160€</td>
+        </tr>
+        <tr>
+        <th scope="row">GOOGLE CHROME</th>
+        <td>SHOPIFY</td>
+        <td>200€ - 1000€</td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+
+
+
+<!- SECCION DE PIE DE PAGINA - PAGINA PRODUCTOS -->
+    <footer>
+    <div class="pieDePagina piePaginaProductos">
+        <div>
+          <a>Soporte |</a>
+          <a>Contacto |</a>
+          <a>Devoluciones |</a>
+          <a>Politica de Privacidad |</a>
+          <a>Sobre Nosotros</a>
+        </div>
+      </div>
+      <br><br>
+
+    </footer>   
+<!------------------------------------------------------------------------------->
+        <script src="javascript.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
